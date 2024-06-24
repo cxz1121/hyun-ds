@@ -1,0 +1,16 @@
+{
+  "name": "@hyun-ds/play",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hyun-ds/components": "workspace:^",
+    "@vitejs/plugin-vue": "^5.0.5"
+  }
+}

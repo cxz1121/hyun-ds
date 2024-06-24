@@ -1,0 +1,18 @@
+{
+  "name": "hyun-ds",
+  "version": "1.0.0",
+  "description": "hyun design ui",
+  "main": "index.js",
+  "scripts": {
+    "dev": "pnpm -C play dev",
+    "build": "pnpm -C internal/build build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.14.8",
+    "vite": "^5.3.1",
+    "vue": "^3.4.30"
+  }
+}
