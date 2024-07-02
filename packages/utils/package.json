@@ -1,5 +1,5 @@
 {
-  "name": "@hyun-ds/components",
+  "name": "@hyun-ds/utils",
   "version": "1.0.0",
   "description": "",
   "main": "index.ts",
@@ -8,8 +8,5 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "@hyun-ds/utils": "workspace:^"
-  }
+  "license": "ISC"
 }

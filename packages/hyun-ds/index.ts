@@ -1,13 +1,8 @@
 import { App } from "vue";
-import HyButton from "../components/hy-button";
-import HyInput from "../components/hy-input"
 
-const defaultComponents = [
-  HyButton,
-  HyInput
-]
+import defaultComponents from "../components";
 
-export { HyButton, HyInput }
+export { HyButton, HyInput } from '../components'
 
 export default {
   version: '1.0.0',

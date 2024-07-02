@@ -1,10 +1,7 @@
-import { App } from 'vue'
-import HyButton from './index.vue'
+import hyButton from './index.vue'
+import { withInstall } from '@hyun-ds/utils'
+
+const HyButton = withInstall(hyButton)
 
 export { HyButton }
-
-export default {
-  install(app: App) {
-    app.component('hy-button', HyButton)
-  }
-}
+export default HyButton

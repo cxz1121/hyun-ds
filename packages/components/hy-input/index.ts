@@ -1,10 +1,7 @@
-import { App } from 'vue'
-import HyInput from './index.vue'
+import hyInput from './index.vue'
+import { withInstall } from '@hyun-ds/utils'
+
+const HyInput = withInstall(hyInput)
 
 export { HyInput }
-
-export default {
-  install(app: App) {
-    app.component('hy-input', HyInput)
-  }
-}
+export default HyInput

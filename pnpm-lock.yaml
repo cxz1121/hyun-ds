@@ -24,13 +24,24 @@ importers:
         specifier: ^5.0.5
         version: 5.0.5(vite@5.3.1)(vue@3.4.30)
 
-  packages/components: {}
+  packages/components:
+    dependencies:
+      '@hyun-ds/utils':
+        specifier: workspace:^
+        version: link:../utils
+
+  packages/hyun-ds: {}
+
+  packages/utils: {}
 
   play:
     dependencies:
       '@hyun-ds/components':
         specifier: workspace:^
         version: link:../packages/components
+      '@hyun-ds/hyun-ds':
+        specifier: workspace:^
+        version: link:../packages/hyun-ds
       '@vitejs/plugin-vue':
         specifier: ^5.0.5
         version: 5.0.5(vite@5.3.1)(vue@3.4.30)
